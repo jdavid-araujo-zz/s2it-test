@@ -15,8 +15,8 @@ public class NumberManupulation {
 		
 		StringBuilder arrayC = new StringBuilder();		
 
-		int maxLength = Math.max(a, b);
-
+		int maxLength = (arrayA.length > arrayB.length) ? arrayA.length : arrayB.length;
+		
 		for (int i = 0; i < maxLength; i++) {
 
 			if (arrayA.length > i) {
